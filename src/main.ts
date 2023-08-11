@@ -1,10 +1,10 @@
 import { Plugin, WorkspaceWindow } from 'obsidian';
 import { TikzjaxPluginSettings, DEFAULT_SETTINGS, TikzjaxSettingTab } from "./settings";
-import { optimize } from "../build/svgo.browser";
+import { optimize } from "svgo-browser/lib/optimize";
 
-// @ts-ignore
-import tikzjaxJs from "inline:../build/tikzjax.js";
+// import tikzjaxJs from "inline:../build/tikzjax.js";
 
+import * as tikzjaxJs from "tikzjax";
 
 export default class TikzjaxPlugin extends Plugin {
 	settings: TikzjaxPluginSettings;

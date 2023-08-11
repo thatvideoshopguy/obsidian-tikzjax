@@ -17,9 +17,15 @@
       "ES6",
       "ES7",
       "ES2021.String"
-    ]
+    ],
+	"paths": {
+		"tikzjax": [
+			"./build/tikzjax.js"
+		]
+	}
   },
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+	"**/*.js"
   ]
 }
