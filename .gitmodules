@@ -2,3 +2,7 @@
 	path = web2js
 	url = https://github.com/drgrice1/web2js/
 	branch = ww-modifications
+[submodule "tikzjax"]
+	path = tikzjax
+	url = https://github.com/drgrice1/tikzjax/
+	branch = ww-modifications
